@@ -11,4 +11,4 @@ SELECT TOP 10 * FROM Person.Address;
 --6--
 SELECT AVG(Rate) FROM HumanResources.EmployeePayHistory;
 --7--
-select count(BusinessEntityID) from HumanResources.Employee;
+select count(BusinessEntityID) FROM HumanResources.Employee;
