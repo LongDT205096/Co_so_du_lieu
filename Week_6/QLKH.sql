@@ -9,6 +9,7 @@
 -- 	"DT#" char(5) PRIMARY KEY,
 -- 	TenDT char(30),
 -- 	Cap char(15),
+-- 	KinhPhi int
 -- );
 
 -- CREATE TABLE ThamGia(
