@@ -1,0 +1,16 @@
+--CREATE PROCEDURE excepted_values
+--AS (
+--    SELECT h.maN, maKH, Ngaybatdau, Ngayketthuc, n.Giathue
+--    FROM hop_dong h, nha_cho_thue n
+--    WHERE h.maN = n.maN AND n.Giathue > 9999999)
+--
+--EXEC excepted_values;
+--
+--CREATE PROCEDURE total_price
+--as(
+--	select hoten, p.maKH, p.maN, p.time * p.Giathue from (
+--		SELECT h.maKH, h.maN, (datediff(month, h.ngaybatdau,h.ngayketthuc)) AS "time", n.Giathue from hop_dong h
+--		inner join nha_cho_thue n on h.maN = n.maN) as p
+--	inner join khach_hang k on k.maKH = p.maKH )
+--
+--EXEC total_price
